@@ -70,6 +70,8 @@ const zucchine = [
 
 let pesoTot = 0;
 
+// #metodo 1:
+
 for (const index in zucchine) {
 
   const peso = zucchine[index].kg;
@@ -78,5 +80,13 @@ for (const index in zucchine) {
   pesoTot += peso;
 
 }
+
+
+// #metodo 2:
+
+// for (const zucchina of zucchine) {
+//   pesoTot += zucchina.kg
+// }
+
 
 console.log(pesoTot);
